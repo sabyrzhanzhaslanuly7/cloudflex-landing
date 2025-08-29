@@ -1,0 +1,6 @@
+@use './partials/variables' as vars;
+@use './partials/importer';
+
+body {
+	background-color: vars.$bg-color;
+}
