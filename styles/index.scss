@@ -1,6 +1,8 @@
 @use './partials/variables' as vars;
 @use './partials/importer';
 
+@use './sections/header';
+
 body {
 	background-color: vars.$bg-color;
 }

@@ -1,0 +1,22 @@
+@use '../partials/variables' as vars;
+
+%hover-black {
+	&:hover {
+		cursor: pointer;
+		color: vars.$color-black;
+	}
+}
+
+%hover-light {
+	&:hover {
+		cursor: pointer;
+		color: vars.$color-white;
+	}
+}
+
+%hover-black-icon {
+	&:hover {
+		cursor: pointer;
+		background-color: vars.$color-black;
+	}
+}

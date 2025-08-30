@@ -2,9 +2,38 @@
 
 * {
 	box-sizing: border-box;
+	transition-duration: 0.3s;
 }
 
 body {
-  margin: 0;
+	margin: 0;
 	font-family: vars.$font-family;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+button {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: unset;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.container {
+	max-width: vars.$container-max-width;
+	padding-inline: vars.$container-padding-x;
+	margin-inline: auto;
 }

@@ -1,23 +1,25 @@
 {
-  "name": "cloudflex-landing",
-  "version": "1.0.0",
-  "description": "landing page",
-  "main": "index.html",
-  "scripts": {
-    "sass:watch": "sass --style=expanded --watch styles:dist"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sabyrzhanzhaslanuly7/cloudflex-landing.git"
-  },
-  "author": "Sabyrzhan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sabyrzhanzhaslanuly7/cloudflex-landing/issues"
-  },
-  "homepage": "https://github.com/sabyrzhanzhaslanuly7/cloudflex-landing#readme",
-  "devDependencies": {
-    "parcel": "^2.15.4",
-    "sass": "^1.91.0"
-  }
+	"name": "cloudflex-landing",
+	"version": "1.0.0",
+	"description": "landing page",
+	"main": "index.html",
+	"scripts": {
+		"sass:watch": "sass --style=expanded --watch styles:dist",
+		"parcel:serve": "parcel serve --dist-dir public",
+		"parcel:build": "parcel build --dist-dir build --public-url ./"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sabyrzhanzhaslanuly7/cloudflex-landing.git"
+	},
+	"author": "Sabyrzhan",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/sabyrzhanzhaslanuly7/cloudflex-landing/issues"
+	},
+	"homepage": "https://github.com/sabyrzhanzhaslanuly7/cloudflex-landing#readme",
+	"devDependencies": {
+		"parcel": "^2.15.4",
+		"sass": "^1.91.0"
+	}
 }

@@ -9,10 +9,44 @@
 			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
 			rel="stylesheet"
 		/>
+		<link rel="icon" href="./assets/favicon.png" type="image/png" />
 		<link rel="stylesheet" href="./dist/index.css" />
 		<title>CloudFlex Landing</title>
 	</head>
 	<body>
-    CloudFlex
-  </body>
+		<header class="header" aria-label="header">
+			<div class="container">
+				<nav class="header__nav nav" aria-label="header navigation">
+					<div class="nav__title">
+						<a href="#" class="nav__title-link">CLOUD <span>FLEX</span></a>
+					</div>
+
+					<div class="nav__links">
+						<ul class="nav__links-list list" aria-label="header nav links">
+							<li class="list__item">
+								<a href="#" class="list__item-link">about</a>
+							</li>
+							<li class="list__item">
+								<a href="#" class="list__item-link">contact</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="nav__covid-wrapper covid">
+						<a href="#" class="covid__link" aria-label="covid-19 update"
+							>COVID-19 UPDATE</a
+						>
+					</div>
+
+					<div class="nav__globe-wrapper globe">
+						<a href="#" class="globe__link" aria-label="globe info">
+							<svg class="globe__link-icon" aria-label="globe img">
+								<use href="assets/sprites.svg#globe-icon"></use>
+							</svg>
+						</a>
+					</div>
+				</nav>
+			</div>
+		</header>
+	</body>
 </html>
